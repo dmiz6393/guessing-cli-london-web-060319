@@ -5,7 +5,7 @@ def run_guessing_game
   
   while response!="exit"do 
   
-  do if response.to_i== num 
+  if response.to_i== num 
   puts "You guessed the correct number!"
   
 else puts "The computer guessed #{num}." 
