@@ -3,4 +3,6 @@ def run_guessing_game
   response=gets.chomp
   num=rand(1..6) 
   
-  while response!=
+  while response!="exit"
+  
+  do 
