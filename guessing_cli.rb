@@ -6,4 +6,4 @@ def run_guessing_game
   while response!="exit"
   
   do if response.to_i== num 
-  puts "You guessed"
+  puts "You guessed the correct number "
