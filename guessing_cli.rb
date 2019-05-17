@@ -10,9 +10,12 @@ def run_guessing_game
   
 else puts "The computer guessed #{num}." 
   end 
-  
+  num=rand(1..6) 
+  response=gets.chomp
+end 
   if response=="exit"
     puts "Goodbye!"
     
   end 
+end 
 
