@@ -8,5 +8,11 @@ def run_guessing_game
   do if response.to_i== num 
   puts "You guessed the correct number!"
   
-else puts "The computer guessed #{num}. 
-  end "
+else puts "The computer guessed #{num}." 
+  end 
+  
+  if response=="exit"
+    puts "Goodbye!"
+    
+  end 
+end 
