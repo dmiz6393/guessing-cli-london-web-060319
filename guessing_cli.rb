@@ -15,4 +15,4 @@ else puts "The computer guessed #{num}."
     puts "Goodbye!"
     
   end 
-end 
+
